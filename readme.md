@@ -6,16 +6,15 @@
 Este proyecto es una **tienda web demo** creada con **HTML, CSS y JavaScript Vanilla**, sin frameworks y sin servidor.  
 Forma parte del material que utilizo como **profesor de Programación Web**, donde enseño a mis alumnos cómo construir interfaces dinámicas, manejar eventos, filtrar datos y crear componentes simples sin depender de librerías externas.
 
-## 📚 Material del Curso
+## 📚 Material del curso
 
-Otros ejercicios, proyectos y temas de la clase de Programación Web se encuentran en el repositorio principal del curso:
-
+Más código de la clase está disponible aquí: 👉  
 https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion
 
-## 🌐 Demo en GitHub Pages
+## 🌐 Demo de la tienda (GitHub Pages)
 
+Puedes ver la tienda funcionando aquí: 👉  
 https://luiscontrerasglz.github.io/Clase_Web_Dev_TiendaOnline/
-
 
 ---
 
