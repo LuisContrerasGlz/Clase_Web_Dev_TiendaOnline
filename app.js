@@ -1,8 +1,8 @@
 /* =====================================================
-   Tienda Demo - Variante sin servidor (JSON embebido)
+   Tienda Demo - Variante sin servidor (catálogo en catalog.js)
    -----------------------------------------------------
    Qué hace este archivo:
-   - Lee el catálogo desde un <script type="application/json"> dentro del HTML.
+   - Lee el catálogo desde la variable global `catalogData` (definida en catalog.js).
    - Genera dinámicamente botones de categoría y tarjetas de productos.
    - Implementa búsqueda por texto y filtro por categoría.
    - Implementa un carrito básico (agregar, sumar/restar, eliminar, subtotal).
@@ -51,13 +51,16 @@
       return;
     }
 
-    // --- 1) Cargar catálogo desde el script JSON embebido ---
+    // --- 1) Cargar catálogo desde catalog.js (variable global catalogData) ---
     try{
-      const raw  = $('#catalogData').textContent;  // El contenido del <script>
-      const data = JSON.parse(raw);                // Lo convertimos a objeto
-      state.catalog = Array.isArray(data.products) ? data.products : [];
+      if (!window.catalogData) {
+        throw new Error('catalogData no está definido. ¿Falta incluir catalog.js?');
+      }
+      state.catalog = Array.isArray(window.catalogData.products)
+        ? window.catalogData.products
+        : [];
     }catch(err){
-      console.error('No se pudo leer el JSON embebido:', err);
+      console.error('No se pudo leer el catálogo:', err);
       productsEl.innerHTML = '<p style="opacity:.8">No se pudo cargar el catálogo.</p>';
       return;
     }
