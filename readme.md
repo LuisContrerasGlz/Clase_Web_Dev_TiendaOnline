@@ -1,19 +1,22 @@
-# 📘 **README.md — Copiar y pegar**
-
-```markdown
 # 🛒 Tienda Demo (HTML, CSS y JavaScript)
 
 Este proyecto es una **tienda web demo** creada con **HTML, CSS y JavaScript Vanilla**, sin frameworks y sin servidor.  
 Forma parte del material que utilizo como **profesor de Programación Web**, donde enseño a mis alumnos cómo construir interfaces dinámicas, manejar eventos, filtrar datos y crear componentes simples sin depender de librerías externas.
 
+---
+
 ## 📚 Material del curso
 
-Más código de la clase está disponible aquí: 👉  
+Más código de la clase está disponible aquí 👇
+
 https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion
+
+---
 
 ## 🌐 Demo de la tienda (GitHub Pages)
 
-Puedes ver la tienda funcionando aquí: 👉  
+Puedes ver la tienda funcionando aquí 👇
+
 https://luiscontrerasglz.github.io/Clase_Web_Dev_TiendaOnline/
 
 ---
@@ -39,15 +42,11 @@ Este proyecto muestra a los estudiantes cómo organizar un mini-proyecto realist
 
 ## 📁 Estructura del Proyecto
 
-```
-
 .
 ├── index.html     # Base del proyecto
 ├── styles.css     # Estilos (Grid, Flexbox, variables)
 ├── app.js         # Lógica de render, filtros y carrito
 └── catalog.js     # Catálogo externo como objeto global
-
-````
 
 ---
 
@@ -104,9 +103,6 @@ Este proyecto está diseñado para ayudar a los estudiantes a comprender:
 * Cómo construir componentes funcionales (tarjetas, carrito, filtros)
 * Buenas prácticas de organización en proyectos pequeños
 
-Más código de la clase está disponible aquí:
-👉 **[https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion](https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion)**
-
----
-
+Más código de la clase está disponible aquí 👇
+[https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion](https://github.com/LuisContrerasGlz/ClaseFundamentosDeProgramacion)
 
